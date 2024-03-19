@@ -1,0 +1,214 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+ /* media query for mobile screen */
+
+ @media screen and (max-width: 560px) {
+  .zero-1,
+  .zero-2 {
+    height: 70px !important;
+    width: auto;
+  }
+
+  .history,
+  .climb {
+    height: 20px !important;
+    width: auto;
+  }
+
+  .paragraph,
+  .main-para {
+    font-size: 12px !important;
+  }
+
+  footer .logo-section img {
+    height: 20px !important;
+    width: auto;
+  }
+
+  .copy-right img {
+    height: 7px !important;
+    width: auto;
+  }
+
+  .nav-2 .me-3 {
+    height: 20px;
+    width: auto;
+  }
+
+  .nav-2 .nav-links a {
+    font-size: 12px !important;
+  }
+
+  .me-2 {
+    height: 30px;
+    width: auto;
+  }
+}
+
+/* media query for Tablets */
+
+@media screen and (max-width: 768px) {
+  /* css for main-container-1 section starts */
+
+  .main-container-1 {
+    height: 40vh !important;
+  }
+
+  .main-container-1 header {
+    width: 100% !important;
+  }
+
+  .main-container-1 header ul li a {
+    font-size: 12px !important;
+  }
+
+  /* css for main-container-2 section ends */
+
+  /* css for nav-2 section starts */
+
+  .nav-2 {
+    width: 100% !important;
+  }
+
+  .nav-2 .me-3 {
+    height: 30px;
+    width: auto;
+  }
+
+  /* css for nav-2 section ends */
+
+  /* css for main-container-2 section starts */
+
+  .main-container-2 {
+    height: 80vh !important;
+  }
+
+  .main-container-2 .logo-section .zero-1 {
+    height: 100px;
+    width: auto;
+  }
+
+  .main-container-2 .logo-section .history {
+    height: 30px;
+    width: auto;
+  }
+
+  .main-container-2 .para-section {
+    max-width: 80% !important;
+  }
+
+  /* css for main-container-2 section ends */
+
+  /* css for nav-3 section starts */
+
+  .nav-3 {
+    height: 200px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .nav-3 .inner-nav-container {
+    width: 100% !important;
+    padding: 0 20px !important;
+  }
+
+  .nav-3 .zero-2 {
+    height: 100px;
+    width: auto;
+  }
+
+  .nav-3 .climb {
+    height: 30px;
+    width: auto;
+  }
+
+  .nav-3 .image-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .nav-3 .image-section p {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: "Roboto Condensed", sans-serif;
+    color: #091b3a;
+  }
+
+  .nav-3 .paragraph {
+    text-align: left;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-left: 50px;
+  }
+
+  /* css for nav-3 section ends */
+
+  /* css for nav-4 and main-container-3 section starts */
+
+  .nav-4 {
+    display: none;
+  }
+
+  .main-container-3 {
+    display: none;
+  }
+
+  /* css for nav-4 and main-container-3 section ends */
+
+  /* css for accordion-section starts */
+  .accordion-section {
+    display: block !important;
+  }
+  /* css for accordion-section ends */
+
+  /* css for footer section starts */
+
+  footer .inner-footer {
+    width: 100% !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+    padding: 0 20px !important;
+  }
+
+  footer .logo-section img {
+    height: 30px;
+    width: auto;
+  }
+
+  /* css for footer section ends */
+}
